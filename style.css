@@ -1,0 +1,24 @@
+.header-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.header-list a {
+  text-decoration: none;
+}
+
+.header-list li a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.header-list a:visited {
+  color: black;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
