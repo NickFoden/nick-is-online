@@ -55,3 +55,19 @@
   padding-bottom: 150px;
   background: linear-gradient(to bottom right, #87f8ff, #8690fc);
 }
+.second-container {
+  margin-top: 0px;
+  padding: 150px;
+  background: linear-gradient(to top right, #87f8ff, #8690fc);
+}
+.third-container {
+  margin-top: 0px;
+  padding: 150px;
+  background: linear-gradient(to bottom right, #87f8ff, #8690fc);
+}
+
+.fourth-container {
+  margin-top: 0px;
+  padding: 150px;
+  background: linear-gradient(to top right, #87f8ff, #8690fc);
+}
