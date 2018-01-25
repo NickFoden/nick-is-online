@@ -9,6 +9,7 @@
 }
 .title a {
   text-decoration: none;
+  color: black;
 }
 .title a:visited {
   color: black;
@@ -17,14 +18,14 @@
   font-weight: bold;
   color: #ffbb3c;
 }
-.developing a:hover {
+/* .developing a:hover {
   font-weight: bold;
   color: #e86349;
 }
 #projects a:hover {
   font-weight: bold;
   color: #2fff64;
-}
+} */
 .title-image {
   display: grid;
   grid-template-columns: 1fr;
