@@ -34,21 +34,25 @@
 }
 .js-image {
   position: relative;
-  top: 8px;
+  top: 2px;
 }
 .node-image {
   position: relative;
-  top: 14px;
+  top: 0px;
 }
 .react-image {
   position: relative;
-  top: 16px;
+  top: 0px;
 }
 .redux-image {
   position: relative;
-  top: 14px;
+  top: 2px;
 }
-
+.icons {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr 4fr;
+  margin: auto;
+}
 .first-container {
   margin-top: 0;
   padding-top: 70px;
