@@ -22,6 +22,7 @@ body {
   font-weight: bold;
   color: #ffbb3c;
 }
+
 .title-image {
   display: grid;
   grid-template-columns: 1fr;
@@ -53,24 +54,51 @@ body {
 .first-container {
   margin-top: 0;
   padding-top: 70px;
-  padding-bottom: 150px;
+  padding-bottom: 70px;
   /* background: linear-gradient(to bottom right, #87f8ff, #8690fc); */
 }
 .second-container {
   margin-top: 0px;
-  padding: 150px;
+  padding: 75px;
+  width: 55%;
+  font-family: "Slabo 27px", serif;
 
   /* background: linear-gradient(to top right, #87f8ff, #8690fc); */
 }
 .third-container {
   margin-top: 0px;
-  padding: 150px;
+  padding: 100px;
   text-align: right;
+  font-family: "Slabo 27px", serif;
   /* background: linear-gradient(to bottom right, #87f8ff, #8690fc); */
 }
 
 .fourth-container {
   margin-top: 0px;
-  padding: 150px;
+  padding: 50px;
+  font-family: "Slabo 27px", serif;
   /* background: linear-gradient(to top right, #87f8ff, #8690fc); */
+}
+
+.fa {
+  margin: 0px 5px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-links a:hover {
+  text-decoration: none;
+  color: rgb(13, 16, 233);
+}
+
+#contact a {
+  color: black;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: rgb(13, 16, 233);
 }
