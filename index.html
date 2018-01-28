@@ -76,18 +76,20 @@
     <div id="projects" class="third-container">
         <h1> Projects Section</h1>
     </div>
+    <iframe name="formDestination"></iframe>
     <div id="contact" class="fourth-container">
         <h1> Contact Nick</h1>
-        <!-- <p>(Coded this form with
+        <p>(Coded this form with
             <a href="https://github.com/nodemailer/nodemailer" target="_blank "> nodemailer </a> to email me your sick links. )</p>
-        <form method="POST">
+        <form method="POST" action='http://localhost:8080/send' target="formDestination">
+            <!-- <form method="POST" action='https://proofing-server.herokuapp.com/send'> -->
             <p>
                 <label>Nombre:</label>
                 <input type=" text " name="name ">
             </p>
             <p>
                 <label>Email Address</label>
-                <i class="fa fa-envelope "></i>
+                <!-- <i class="fa fa-envelope "></i> -->
                 <input type="email " name="email ">
             </p>
             <p>
@@ -101,7 +103,7 @@
             <p class="full ">
                 <button type="submit ">Submit</button>
             </p>
-        </form> -->
+        </form>
 
     </div>
 
