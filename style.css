@@ -163,3 +163,43 @@ textarea {
 button {
   margin-left: 150px;
 }
+
+#arrow-up {
+  margin-left: 90%;
+}
+
+li {
+  list-style-type: none;
+}
+.project-image {
+  width: 350px;
+}
+
+.projects-ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+.project-list-item {
+  width: 400px;
+}
+.project-title {
+  text-align: center;
+}
+.project-description {
+  text-align: left;
+}
+
+@media only screen and (max-device-width: 928px) {
+  .project-list-item {
+    width: 200px;
+  }
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  .project-image {
+    width: 180px;
+  }
+}

@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="first-container">
+    <div class="first-container" id="top-container">
         <img class="title-image animated bounceInLeft" src="./assets/marina.jpg" width="200"></img>
         <div class="title">
             <h1>
@@ -70,39 +70,47 @@
         </div>
 
     </div>
-
+    <a href='#top-container' id="arrow-up">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
     <div id="projects" class="third-container">
         <h1> Projects Section</h1>
         <ul class="projects-ul">
-            <li>
-                <h2>Salt and Pepper</h2>
-                <p>First API project I made, where you enter an ingredient and it queries a recipe API and displays a small
+            <li></li>
+            <li class="project-list-item">
+                <h2 class="project-title">Salt and Pepper</h2>
+                <p class="project-description">First API project I made, where you enter an ingredient and it queries a recipe API and displays a small
                     card of a recipe you can make. It grabs 5 results and shows you a random recipe.
                 </p>
                 <a href="https://nickfoden.github.io/salt-and-pepper/" target="_blank">
                     <img src="http://www.amuse-your-bouche.com/wp-content/uploads/2015/09/Toasted-gnocchi-salad-1.jpg" alt="salad with gnocchi"
-                        width="350">
+                        class="project-image">
                 </a>
             </li>
-            <li>
-                <h2>Cards</h2>
-                <p>A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the views
+            <li class="project-list-item">
+                <h2 class="project-title">Cards</h2>
+                <p class="project-description">A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the views
                     of this app. This project really became about using Passport JS for auth and how to set local session
                     variables to mark the user as logged in. If you log in you can add new cards. </p>
                 <a href="https://thawing-retreat-12983.herokuapp.com/" target="_blank">
-                    <img src="./assets/cards.png" width="350">
+                    <img src="./assets/cards.png" class="project-image">
                 </a>
             </li>
-            <li>
-                <h2>Proofer</h2>
-                <p>Upload an album of photos with one drag and drop. Pick the ones you approved. Save as an album and then invite
-                    guests to your albume and arrive at a consensus for which photos everyone can agree are publishable.</p>
+            <li></li>
+            <li></li>
+            <li class="project-list-item">
+                <h2 class="project-title">Proofer</h2>
+                <p class="project-description">Upload an album of photos with one drag and drop. Pick the ones you approve of. Save as an album and then
+                    invite guests to your album and arrive at a consensus for which photos everyone can agree are publishable.</p>
                 <a href="https://proofing.netlify.com/" target="_blank">
-                    <img src="./assets/proofer.png" width="350">
+                    <img src="./assets/proofer.png" class="project-image">
                 </a>
             </li>
         </ul>
     </div>
+    <a href='#top-container' id="arrow-up">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
     <iframe name="formDestination" class="hide-iframe"></iframe>
     <div id="contact" class="fourth-container">
 
@@ -132,8 +140,10 @@
                 <button type="submit ">Submit</button>
             </p>
         </form>
-
     </div>
+    <a href='#top-container' id="arrow-up">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
 
     <div id="links" class="fifth-container">
         <h1>Links on Links</h1>
@@ -143,6 +153,9 @@
             </li>
         </ul>
     </div>
+    <a href='#top-container' id="arrow-up">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin=" anonymous "></script>
