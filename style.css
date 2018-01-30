@@ -155,7 +155,42 @@ button {
   margin-left: 150px;
 }
 
-.title-image:hover {
-  border-radius: 50%;
-  transition-duration: 0.5s;
+#arrow-up {
+  margin-left: 90%;
+}
+
+li {
+  list-style-type: none;
+}
+.project-image {
+  width: 400px;
+}
+
+.projects-ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+.project-list-item {
+  width: 400px;
+}
+.project-title {
+  text-align: center;
+}
+.project-description {
+  text-align: left;
+}
+
+@media only screen and (max-width: 928px) {
+  .project-list-item {
+    width: 200px;
+  }
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  .project-image {
+    width: 200px;
+  }
 }
