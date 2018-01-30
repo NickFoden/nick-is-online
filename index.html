@@ -43,9 +43,9 @@
     <div id="about" class="second-container">
         <img class="nickelodeon animated infinite pulse" src='./assets/Nick_Foden.jpg' width="150"></img>
         <h1> About Nick</h1>
-        <p> &nbsp;&nbsp;&nbsp;&nbsp; Hello! I am = (Javascript) => React, React-Redux, Node, MongoDb focused and am busy using
-            those to write full stack applications. Looking forward to some React-Native projects coming online in near future
-            as well.
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; Hello! I am = (Javascript) => React, React-Redux, Node plus MongoDb focused and am busy
+            using those to write full stack applications. Looking forward to some React-Native projects coming online in
+            near future as well.
         </p>
         <p> &nbsp;&nbsp;&nbsp;&nbsp;I got sick of consuming technology and not making my ideas into reality. And began to teach
             myself to code via various online resources in 2015. Fast forward to early 2017 and it was time to get serious
@@ -73,6 +73,35 @@
 
     <div id="projects" class="third-container">
         <h1> Projects Section</h1>
+        <ul class="projects-ul">
+            <li>
+                <h2>Salt and Pepper</h2>
+                <p>First API project I made, where you enter an ingredient and it queries a recipe API and displays a small
+                    card of a recipe you can make. It grabs 5 results and shows you a random recipe.
+                </p>
+                <a href="https://nickfoden.github.io/salt-and-pepper/" target="_blank">
+                    <img src="http://www.amuse-your-bouche.com/wp-content/uploads/2015/09/Toasted-gnocchi-salad-1.jpg" alt="salad with gnocchi"
+                        width="350">
+                </a>
+            </li>
+            <li>
+                <h2>Cards</h2>
+                <p>A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the views
+                    of this app. This project really became about using Passport JS for auth and how to set local session
+                    variables to mark the user as logged in. If you log in you can add new cards. </p>
+                <a href="https://thawing-retreat-12983.herokuapp.com/" target="_blank">
+                    <img src="./assets/cards.png" width="350">
+                </a>
+            </li>
+            <li>
+                <h2>Proofer</h2>
+                <p>Upload an album of photos with one drag and drop. Pick the ones you approved. Save as an album and then invite
+                    guests to your albume and arrive at a consensus for which photos everyone can agree are publishable.</p>
+                <a href="https://proofing.netlify.com/" target="_blank">
+                    <img src="./assets/proofer.png" width="350">
+                </a>
+            </li>
+        </ul>
     </div>
     <iframe name="formDestination" class="hide-iframe"></iframe>
     <div id="contact" class="fourth-container">
@@ -80,8 +109,8 @@
         <h1> Contact Nick</h1>
         <p>(Coded this form with
             <a href="https://github.com/nodemailer/nodemailer" target="_blank "> nodemailer </a> to email me your sick links. )</p>
-        <form method="POST" action='http://localhost:8080/send' target="formDestination">
-            <!-- <form method="POST" action='https://proofing-server.herokuapp.com/send'> -->
+        <!-- <form method="POST" action='http://localhost:8080/send' target="formDestination"> -->
+        <form method="POST" action='https://proofing-server.herokuapp.com/send'>
             <p>
                 <label>Nombre:</label>
                 <input type=" text " name="name ">
@@ -108,6 +137,11 @@
 
     <div id="links" class="fifth-container">
         <h1>Links on Links</h1>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/unwantecnycpets/">Unwanted NYC Pets !</a>
+            </li>
+        </ul>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

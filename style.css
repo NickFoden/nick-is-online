@@ -1,3 +1,12 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #d3d3d3;
+  --orange: #ff6d11;
+  --blue: #0e4df0;
+  --teal: #1bf0da;
+}
+
 body {
   margin: 0px;
   font-family: "Fira Sans", sans-serif;
@@ -11,7 +20,7 @@ body {
   height: 1px;
 }
 .developing {
-  text-shadow: 0px 0px 3px black;
+  text-shadow: 0px 0px 3px var(--black);
   font-weight: lighter;
 }
 .title {
