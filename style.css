@@ -172,7 +172,7 @@ li {
   list-style-type: none;
 }
 .project-image {
-  width: 350px;
+  width: 400px;
 }
 
 .projects-ul {
@@ -190,7 +190,7 @@ li {
   text-align: left;
 }
 
-@media only screen and (max-device-width: 928px) {
+@media only screen and (max-width: 928px) {
   .project-list-item {
     width: 200px;
   }
@@ -200,6 +200,6 @@ li {
     grid-gap: 15px;
   }
   .project-image {
-    width: 180px;
+    width: 200px;
   }
 }

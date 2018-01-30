@@ -74,6 +74,10 @@
             <a href="https://twitter.com/NickFoden" target="_blank ">
                 <i class="fa fa-twitter fa-2x " aria-hidden="true "></i>
             </a>
+
+            <!-- Linked In -->
+
+
             <!-- <a href="https://nickfoden.com/" target="_blank ">
                 <i class="fa fa-wordpress fa-2x" aria-hidden="true"></i>
             </a> -->
@@ -89,32 +93,35 @@
             <li></li>
             <li class="project-list-item">
                 <h2 class="project-title">Salt and Pepper</h2>
-                <p class="project-description">First API project I made, where you enter an ingredient and it queries a recipe API and displays a small
-                    card of a recipe you can make. It grabs 5 results and shows you a random recipe.
-                </p>
+
                 <a href="https://nickfoden.github.io/salt-and-pepper/" target="_blank">
                     <img src="http://www.amuse-your-bouche.com/wp-content/uploads/2015/09/Toasted-gnocchi-salad-1.jpg" alt="salad with gnocchi"
                         class="project-image">
                 </a>
+                <p class="project-description">First API project I made, where you enter an ingredient and it queries a recipe API and displays a small
+                    card of a recipe you can make. It grabs 5 results and shows you a random recipe.
+                </p>
             </li>
             <li class="project-list-item">
                 <h2 class="project-title">Cards</h2>
-                <p class="project-description">A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the views
-                    of this app. This project really became about using Passport JS for auth and how to set local session
-                    variables to mark the user as logged in. If you log in you can add new cards. </p>
+
                 <a href="https://thawing-retreat-12983.herokuapp.com/" target="_blank">
                     <img src="./assets/cards.png" class="project-image">
                 </a>
+                <p class="project-description">A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the views
+                    of this app. This project really became about using Passport JS for auth and how to set local session
+                    variables to mark the user as logged in. If you log in you can add new cards. </p>
             </li>
             <li></li>
             <li></li>
             <li class="project-list-item">
                 <h2 class="project-title">Proofer</h2>
-                <p class="project-description">Upload an album of photos with one drag and drop. Pick the ones you approve of. Save as an album and then
-                    invite guests to your album and arrive at a consensus for which photos everyone can agree are publishable.</p>
                 <a href="https://proofing.netlify.com/" target="_blank">
                     <img src="./assets/proofer.png" class="project-image">
                 </a>
+                <p class="project-description">Upload an album of photos with one drag and drop. Pick the ones you approve of. Save as an album and then
+                    invite guests to your album and arrive at a consensus for which photos everyone can agree are publishable.</p>
+
             </li>
         </ul>
     </div>
@@ -126,28 +133,29 @@
 
         <h1> Contact Nick</h1>
         <p>(Coded this form with
-            <a href="https://github.com/nodemailer/nodemailer" target="_blank "> nodemailer </a> to email me your sick links. )</p>
+            <a href="https://github.com/nodemailer/nodemailer" target="_blank"> nodemailer </a> to email me your sick links. )</p>
         <!-- <form method="POST" action='http://localhost:8080/send' target="formDestination"> -->
+        <!-- enctype="multipart/form-data" -->
         <form method="POST" action='https://proofing-server.herokuapp.com/send'>
             <p>
                 <label>Nombre:</label>
-                <input type=" text " name="name ">
+                <input type="text" name="name">
             </p>
             <p>
                 <label>Email Address</label>
                 <!-- <i class="fa fa-envelope "></i> -->
-                <input type="email " name="email ">
+                <input type="email" name="email">
             </p>
             <p>
                 <label>See anything cool online lately?</label>
-                <input type="text " name="link " placeholder="sick link ">
+                <input type="text" name="link" placeholder="sick link ">
             </p>
-            <p class="full ">
+            <p class="full">
                 <label> Friendly Message</label>
-                <textarea name="message " rows="5 "></textarea>
+                <textarea name="message" rows="5"></textarea>
             </p>
             <p class="full ">
-                <button type="submit ">Submit</button>
+                <button type="submit">Submit</button>
             </p>
         </form>
     </div>
