@@ -162,18 +162,7 @@ button {
 li {
   list-style-type: none;
 }
-.project-image {
-  width: 400px;
-}
 
-.projects-ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-}
-.project-list-item {
-  width: 400px;
-}
 .project-title {
   text-align: center;
 }
@@ -181,7 +170,107 @@ li {
   text-align: left;
 }
 
+@media only screen and (max-width: 1950px) {
+  .project-list-item {
+    width: 700px;
+  }
+  .project-image {
+    width: 700px;
+  }
+
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .third-container {
+    margin-top: 0px;
+    padding: 50px;
+    text-align: right;
+    font-family: "Slabo 27px", serif;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .project-list-item {
+    width: 550px;
+  }
+  .project-image {
+    width: 550px;
+  }
+
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .third-container {
+    margin-top: 0px;
+    padding: 50px;
+    text-align: right;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .project-list-item {
+    width: 400px;
+  }
+  .project-image {
+    width: 400px;
+  }
+
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .third-container {
+    margin-top: 0px;
+    padding: 50px;
+    text-align: right;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+  }
+}
 @media only screen and (max-width: 928px) {
+  .project-list-item {
+    width: 275px;
+  }
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  .project-image {
+    width: 275px;
+  }
+  .third-container {
+    margin-top: 0px;
+    padding: 50px;
+    text-align: right;
+    font-family: "Slabo 27px", serif;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .project-list-item {
+    width: 150px;
+  }
+  .projects-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  .project-image {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
   .project-list-item {
     width: 200px;
   }
