@@ -12,6 +12,10 @@ body {
   --white: #ffffff;
 }
 
+.none {
+  display: none;
+}
+
 .hide-iframe {
   position: absolute;
   top: -1px;
