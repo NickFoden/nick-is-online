@@ -436,4 +436,11 @@ li {
     grid-row: 4 / 5;
     grid-column: 1/ 2;
   }
+  .links-ul {
+    grid-gap: 5px;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    float: none;
+  }
 }
