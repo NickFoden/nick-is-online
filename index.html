@@ -10,7 +10,7 @@
         crossorigin="anonymous">
     <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oswald|Slabo+27px" rel="stylesheet">
 
 </head>
 
@@ -53,14 +53,14 @@
     <div id="about" class="second-container">
         <img class="nickelodeon animated infinite pulse" src='./assets/Nick_Foden.jpg' width="150"></img>
         <h1> About Nick</h1>
-        <p> &nbsp;&nbsp;&nbsp;&nbsp; Hello! I am = (Javascript) => React, React-Redux, Node plus MongoDb focused and am busy
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; Hello! I am = (Javascript) => React, React-Redux, Node with MongoDb focused and am busy
             using those to write full stack web apps. Looking forward to some React-Native projects coming online in near
             future as well.
         </p>
         <p> &nbsp;&nbsp;&nbsp;&nbsp;Was getting tired of consuming and not creating. And began to teach myself to code via various
             online resources in 2015. Fast forward to early 2017 and it was time to get serious about really coding the whole
-            application. Not just static sites. Really get into managing and manipuating state, but not mutating it. No never
-            mutating it ! </p>
+            application. Not just static sites. Really get into managing and manipuating state, but not mutating it. Never
+            mutating it! </p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;How awkard is writing about yourself? I really don't want to write my whole bio out on here.
             Is there an app for that yet?</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp; Wow you got this far. Hit me up and lets ride bikes or go sailing or something. Holler!</p>
@@ -95,8 +95,24 @@
     <div id="projects" class="third-container">
         <h1 class="right-side-header"> Projects</h1>
         <ul class="projects-ul">
-            <li></li>
-            <li class="project-list-item">
+
+            <li class="project-list-item" id="dieHard">
+                <h2 class="project-title">Do You Even Die Hard</h2>
+
+                <a href="http://doyouevendiehard.netlify.com/" target="_blank">
+                    <img src="https://raw.githubusercontent.com/NickFoden/quiz-app/master/images/WelcomeToThePartyPal.jpg" alt="John McClane welcome to the party pall looking out of broken window"
+                        class="project-image">
+                </a>
+                <p class="project-description">Quiz project working with jquery and javascript.This quiz is 10 questions based on the original trilogy.
+                    The other Die Hard films are ok, but decided to focus on the 3 greatest films of all time. I'd like to
+                    go back and add some more questions for the real Die Hard maniacs and screen cap some of the scenes into
+                    gifs with the nifty Gyazo tool and then use those to supplement the questions giving you a an exact moment
+                    to jog your memory. Although this would have to be on the easy setting that will be added. Also want
+                    to make a Striking Distance quiz, but not sure how many fans will know that one in and out.
+                </p>
+            </li>
+
+            <li class="project-list-item" id="saltAndPepper">
                 <h2 class="project-title">Salt and Pepper</h2>
 
                 <a href="https://github.com/NickFoden/salt-and-pepper/" target="_blank">
@@ -107,7 +123,7 @@
                     card of a recipe you can make. It grabs 5 results and shows you a random recipe.
                 </p>
             </li>
-            <li class="project-list-item">
+            <li class="project-list-item" id="cards">
                 <h2 class="project-title">Cards</h2>
 
                 <a href="https://github.com/NickFoden/cards-pug" target="_blank">
@@ -117,9 +133,7 @@
                     of this app. This project really became about using Passport JS for auth and how to set local session
                     variables to mark the user as logged in. If you log in you can add new cards. </p>
             </li>
-            <li></li>
-            <li></li>
-            <li class="project-list-item">
+            <li class="project-list-item" id="proofer">
                 <h2 class="project-title">Proofer</h2>
                 <a href="https://github.com/NickFoden/proofing-client" target="_blank">
                     <img src="./assets/proofer.png" class="project-image">
@@ -171,10 +185,17 @@
 
     <div id="links" class="fifth-container">
         <h1 class="right-side-header">Links on Links</h1>
-        <ul>
+        <ul class="links-ul">
             <li>
                 <a href="https://www.facebook.com/unwantecnycpets/">Unwanted NYC Pets !</a>
             </li>
+            <li>
+                <a href="https://gyazo.com/">Gyazo </a>
+            </li>
+            <li>
+                <a href="http://www.screw-bar.com/">Gudak</a>
+            </li>
+
         </ul>
     </div>
     <a href='#top-container' id="arrow-up">
