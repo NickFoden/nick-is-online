@@ -81,8 +81,6 @@
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
             </a>
 
-
-
             <!-- <a href="https://nickfoden.com/" target="_blank ">
                 <i class="fa fa-wordpress fa-2x" aria-hidden="true"></i>
             </a> -->
@@ -93,7 +91,7 @@
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </a>
     <div id="projects" class="third-container">
-        <h1 class="right-side-header"> Projects</h1>
+        <h1 id="projects-title"> Projects</h1>
         <ul class="projects-ul">
 
             <li class="project-list-item" id="dieHard">
@@ -113,7 +111,31 @@
                     </a>
                 </div>
             </li>
-
+            <li class="project-list-item" id="cards">
+                <h2 class="project-title">Cards</h2>
+                <div class="project-div">
+                    <p class="project-description">A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the
+                        views of this app. This project really became about using Passport JS for auth and how to set local
+                        session variables to mark the user as logged in. If you log in you can add new cards. </p>
+                    <a href="https://github.com/NickFoden/cards-pug" target="_blank">
+                        <img src="./assets/cards.png" class="project-image">
+                    </a>
+                </div>
+            </li>
+            <li class="project-list-item" id="paycheck-strategy">
+                <h2 class="project-title">Paycheck Strategy</h2>
+                <div class="project-div">
+                    <p class="project-description">A expense/savings date projection app. Wanted to explore airbnb date selector and doing caclulations
+                        with dates. The user can input a savings goal or amount of future expense and then designate when
+                        their next paycheck is and how much money per paycheck they want to designate for this goal and then
+                        the app will let them know the future paycheck date when they reach their goal. This was a quick
+                        app one afternoon. I want to add firebase auth to this so users can save multiple goals. Maybe add
+                        interest calculator and some other features.</p>
+                    <a href="https://github.com/NickFoden/paycheck-strategy" target="_blank">
+                        <img src="./assets/paycheck.png" class="project-image">
+                    </a>
+                </div>
+            </li>
             <li class="project-list-item" id="saltAndPepper">
                 <h2 class="project-title">Salt and Pepper</h2>
                 <div class="project-div">
@@ -126,17 +148,6 @@
                     </a>
                 </div>
 
-            </li>
-            <li class="project-list-item" id="cards">
-                <h2 class="project-title">Cards</h2>
-                <div class="project-div">
-                    <p class="project-description">A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the
-                        views of this app. This project really became about using Passport JS for auth and how to set local
-                        session variables to mark the user as logged in. If you log in you can add new cards. </p>
-                    <a href="https://github.com/NickFoden/cards-pug" target="_blank">
-                        <img src="./assets/cards.png" class="project-image">
-                    </a>
-                </div>
             </li>
             <li class="project-list-item" id="proofer">
                 <h2 class="project-title">Proofer</h2>
@@ -163,7 +174,7 @@
         <a href="https://twitter.com/NickFoden">
             <img id='thank-you' src="./assets/henry-smiling.jpg" width="400" class="none">
         </a>
-        <p class="contact-form">(Coded this form so you can email me your sick links. )</p>
+        <p class="contact-form">(Coded this form with node mailer so you shoot me an email and say hello)</p>
         <!-- <form method="POST" action='http://localhost:8080/send' target="formDestination"> -->
         <form class="contact-form" method="POST" action='https://proofing-server.herokuapp.com/send' target="formDestination">
             <p>
@@ -177,7 +188,7 @@
             </p>
             <p>
                 <label>See anything cool online lately?</label>
-                <input class="form-input" type="text" name="link" placeholder="sick link ">
+                <input class="form-input" type="text" name="link" placeholder="cool link ">
             </p>
             <p class="full">
                 <label> Friendly Message</label>
@@ -193,7 +204,7 @@
     </a>
 
     <div id="links" class="fifth-container">
-        <h1 class="right-side-header">Links on Links</h1>
+        <h1>Links on Links</h1>
         <ul class="links-ul">
             <li>
                 <a href="https://www.facebook.com/unwantecnycpets/">Unwanted NYC Pets !</a>

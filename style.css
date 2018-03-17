@@ -108,7 +108,7 @@ body {
 .fifth-container {
   margin-top: 0px;
   padding: 100px;
-  text-align: right;
+  text-align: center;
   font-family: "Slabo 27px", serif;
 }
 
@@ -188,15 +188,21 @@ li {
 }
 .project-description {
   text-align: left;
+  width: 100%;
 }
 .right-side-header {
-  margin-right: 10%;
+  margin-right: 20%;
+}
+
+#projects-title {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .projects-ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 #dieHard {
@@ -209,15 +215,19 @@ li {
   grid-column: 1 / 3;
   justify-self: center;
 }
-
-#saltAndPepper {
+#paycheck-strategy {
   grid-row: 3 / 4;
-  grid-column: 2 / 4;
+  grid-column: 2/ 4;
+  justify-self: center;
+}
+#saltAndPepper {
+  grid-row: 4 / 5;
+  grid-column: 1 / 3;
   justify-self: center;
 }
 #proofer {
-  grid-row: 4 / 5;
-  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+  grid-column: 2 / 4;
   justify-self: center;
 }
 
@@ -225,14 +235,11 @@ li {
   display: grid;
   text-align: center;
   text-decoration: none;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
   padding: 15px;
-  border: 1px solid var(--black);
-  background-color: var(--lightGray);
-  border-radius: 2px;
-  width: 40%;
-  float: right;
+  width: 90%;
+  /* margin: auto; */
 }
 
 .links-ul a {
@@ -240,21 +247,21 @@ li {
   font-family: "Oswald", sans-serif;
   color: var(--black);
 }
-.links-ul a:hover {
-  color: var(--orange);
-}
 .links-ul li {
-  border: 1px solid var(--lightBlue);
-  background-color: var(--gray);
   width: 80%;
-  border-radius: 20px;
   justify-self: center;
   padding: 10px;
 }
 .links-ul li:hover {
   border: 1px solid var(--lightBlue);
   background-color: var(--lightBlue);
+  border-radius: 100px;
 }
+
+.project-title {
+  margin-top: 10px;
+}
+
 /* XXXL */
 @media only screen and (max-width: 1950px) {
   .project-list-item {
@@ -416,7 +423,7 @@ li {
   .fifth-container {
     margin-top: 0px;
     padding: 5px;
-    text-align: right;
+    text-align: center;
     font-family: "Slabo 27px", serif;
   }
   #dieHard {
@@ -427,17 +434,21 @@ li {
     grid-row: 2 / 3;
     grid-column: 1/ 2;
   }
-
-  #saltAndPepper {
+  #paycheck-strategy {
     grid-row: 3 / 4;
     grid-column: 1/ 2;
   }
-  #proofer {
+  #saltAndPepper {
     grid-row: 4 / 5;
+    grid-column: 1/ 2;
+  }
+  #proofer {
+    grid-row: 5 / 6;
     grid-column: 1/ 2;
   }
   .links-ul {
     grid-gap: 5px;
+    grid-template-columns: 1fr;
     padding: 5px;
     width: 80%;
     margin: auto;
