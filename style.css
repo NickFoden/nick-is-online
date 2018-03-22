@@ -18,6 +18,25 @@ body {
   display: none;
 }
 
+#resume-button {
+  float: right;
+  margin-top: 5px;
+  margin-right: 10%;
+  padding: 7px;
+  font-size: 0.75em;
+  background-color: var(--white);
+  border: 1.75px solid var(--orange);
+  border-radius: 3px;
+}
+#resume-button a {
+  text-decoration: none;
+}
+
+#resume-button:hover {
+  background-color: var(--teal);
+  border: 2px solid var(--black);
+}
+
 .hide-iframe {
   position: absolute;
   top: -1px;
