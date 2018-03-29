@@ -533,4 +533,10 @@ li {
     margin: auto;
     float: none;
   }
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    padding: 2px;
+  }
 }
