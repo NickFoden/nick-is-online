@@ -1,6 +1,6 @@
 $("#form-submit-button").on("click", function() {
   $(".contact-form").addClass("none");
-  $(".contact-form-paragraph").addClass("none");
+  $("#contact-form-paragraph").addClass("none");
   $("#thank-you").removeClass("none");
 });
 
