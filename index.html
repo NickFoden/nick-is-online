@@ -132,11 +132,11 @@
                         The other Die Hard films are ok, but decided to focus on the 3 greatest films of all time. I'd like
                         to go back and add some more questions for the real Die Hard maniacs and screen cap some of the scenes
                         into gifs with the nifty
-                        <a href="https://gyazo.com/about" target="_blank">Gyazo</a> tool and then use those to supplement the questions giving you a an exact moment to jog
-                        your memory. Although this would have to be on the easy setting that will be added. Also want to
-                        make a Striking Distance quiz, but not sure how many fans will know that one in and out.
+                        <a href="https://gyazo.com/about" target="_blank" rel="noopener noreferrer">Gyazo</a> tool and then use those to supplement the questions giving you a an exact moment to jog
+                        your memory. Also want to make a Striking Distance quiz, but not sure how many fans will know that
+                        one in and out.
                     </p>
-                    <a href="http://doyouevendiehard.netlify.com/" target="_blank">
+                    <a href="http://doyouevendiehard.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src="https://raw.githubusercontent.com/NickFoden/quiz-app/master/images/WelcomeToThePartyPal.jpg" alt="John McClane welcome to the party pall looking out of broken window"
                             class="project-image">
                     </a>
@@ -148,7 +148,7 @@
                     <p class="project-description">A flashcards app to learn more javascript methods. Ended up learning PUG template engine to handle the
                         views of this app. This project really became about using Passport JS for auth and how to set local
                         session variables to mark the user as logged in. If you log in you can add new cards. </p>
-                    <a href="https://github.com/NickFoden/cards-pug" target="_blank">
+                    <a href="https://github.com/NickFoden/cards-pug" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/cards.png" class="project-image">
                     </a>
                 </div>
@@ -162,20 +162,22 @@
                         the app will let them know the future paycheck date when they reach their goal. This was a quick
                         app one afternoon. I want to add firebase auth to this so users can save multiple goals. Maybe add
                         interest calculator and some other features.</p>
-                    <a href="https://github.com/NickFoden/paycheck-strategy" target="_blank">
+                    <a href="https://github.com/NickFoden/paycheck-strategy" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/paycheck.png" class="project-image">
                     </a>
                 </div>
             </li>
-            <li class="project-list-item" id="saltAndPepper">
-                <h2 class="project-title">Salt and Pepper</h2>
+            <li class="project-list-item" id="discography">
+                <h2 class="project-title">Discography</h2>
                 <div class="project-div">
-                    <p class="project-description">First API project I made, where you enter an ingredient and it queries a recipe API and displays a small
-                        card of a recipe you can make. It grabs 5 results and shows you a random recipe.
+                    <p class="project-description">API project I made, where you enter a band or an artist's name and then queries the iTunes API to display
+                        50 albums related to the query. Built in React, using Fetch to query the iTunes API, and then taking
+                        the JSON result and adding to global state with Redux. Imported MomentJs to display album release
+                        dates in a human readable format. Clicking on the album image or on the artist name or album title
+                        will take the user to the relevant page in itunes.
                     </p>
-                    <a href="https://github.com/NickFoden/salt-and-pepper/" target="_blank">
-                        <img src="http://www.amuse-your-bouche.com/wp-content/uploads/2015/09/Toasted-gnocchi-salad-1.jpg" alt="salad with gnocchi"
-                            class="project-image">
+                    <a href="https://discography.netlify.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/discography-coolio.png" alt="Coolio albums " class="project-image " />
                     </a>
                 </div>
 
@@ -187,8 +189,8 @@
                         then invite guests to your album and arrive at a consensus for which photos everyone can agree are
                         publishable.
                     </p>
-                    <a href="https://github.com/NickFoden/proofing-client" target="_blank">
-                        <img src="./assets/proofer.png" class="project-image">
+                    <a href="https://github.com/NickFoden/proofing-client" target="_blank ">
+                        <img src="./assets/proofer.png" class="project-image ">
                     </a>
                 </div>
 
@@ -203,30 +205,30 @@
 
         <h1> Contact Nick</h1>
         <a href="https://twitter.com/NickFoden">
-            <img id='thank-you' src="./assets/henry-smiling.jpg" width="400" class="none">
+            <img id='thank-you' src="./assets/henry-smiling.jpg " width="400 " class="none ">
         </a>
-        <p class="contact-form-paragraph">(Coded this form with node mailer so you shoot me an email and say hello)</p>
-        <!-- <form class="contact-form" method="POST" action='http://localhost:8080/send' target="formDestination"> -->
-        <form class="contact-form" method="POST" action='https://proofing-server.herokuapp.com/send' target="formDestination">
+        <p class="contact-form-paragraph ">(Coded this form with node mailer so you shoot me an email and say hello)</p>
+        <!-- <form method="POST " action='http://localhost:8080/send' target="formDestination "> -->
+        <form class="contact-form " method="POST " action='https://proofing-server.herokuapp.com/send' target="formDestination ">
             <p>
                 <label class="form-label">Your Moniker:</label>
-                <input class="form-input" type="text" name="name">
+                <input class="form-input" type="text " name="name ">
             </p>
             <p>
-                <label class="form-label">Email Address</label>
+                <label class="form-label ">Email Address</label>
                 <!-- <i class="fa fa-envelope "></i> -->
-                <input class="form-input" type="email" name="email">
+                <input class="form-input " type="email " name="email ">
             </p>
             <p>
-                <label class="form-label">See anything cool online lately?</label>
-                <input class="form-input" type="text" name="link" placeholder="cool link ">
-            </p>
-            <p class="full">
-                <label class="form-label"> Friendly Message</label>
-                <textarea class="form-input" name="message" rows="5"></textarea>
+                <label class="form-label ">See anything cool online lately?</label>
+                <input class="form-input " type="text " name="link " placeholder="cool link ">
             </p>
             <p class="full ">
-                <button id="form-submit-button" type="submit">Submit</button>
+                <label class="form-label "> Friendly Message</label>
+                <textarea class="form-input " name="message " rows="5 "></textarea>
+            </p>
+            <p class="full ">
+                <button id="form-submit-button " type="submit ">Submit</button>
             </p>
         </form>
     </div>
@@ -234,16 +236,16 @@
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </a>
 
-    <div id="links" class="fifth-container">
+    <div id="links " class="fifth-container ">
         <h1>Links on Links</h1>
-        <ul class="links-ul">
-            <a href="https://www.facebook.com/unwantecnycpets/">
+        <ul class="links-ul ">
+            <a href="https://www.facebook.com/unwantecnycpets/ ">
                 <li>Unwanted NYC Pets !</li>
             </a>
-            <a href="https://gyazo.com/">
+            <a href="https://gyazo.com/ ">
                 <li>Gyazo </li>
             </a>
-            <a href="http://www.screw-bar.com/">
+            <a href="http://www.screw-bar.com/ ">
                 <li>Gudak </li>
             </a>
         </ul>
@@ -254,7 +256,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin=" anonymous "></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js "></script>
     <script src="app.js "></script>
 
 
