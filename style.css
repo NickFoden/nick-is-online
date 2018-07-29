@@ -56,7 +56,26 @@ body {
   margin-left: 10%;
 }
 
+#resume-link-button {
+  font-size: 0.75em;
+  border: 2px solid var(--teal);
+  width: auto;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+#resume-link {
+  text-decoration: none;
+}
+
 #expand-bio:hover {
+  background-color: var(--teal);
+  border: 2px dotted black;
+}
+
+#resume-link-button:hover {
   background-color: var(--teal);
   border: 2px dotted black;
 }
@@ -247,7 +266,7 @@ li {
 .projects-ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #dieHard {
@@ -272,6 +291,20 @@ li {
 }
 #proofer {
   grid-row: 5 / 6;
+  grid-column: 2 / 4;
+  justify-self: center;
+}
+
+#offkey {
+  padding-top: 40px;
+  grid-row: 6 / 7;
+  grid-column: 1 / 3;
+  justify-self: center;
+}
+
+#wallplay {
+  padding-top: 40px;
+  grid-row: 7 / 8;
   grid-column: 2 / 4;
   justify-self: center;
 }
@@ -504,6 +537,22 @@ li {
     grid-row: 5 / 6;
     grid-column: 1/ 2;
   }
+  #offkey {
+    padding-top: 0px;
+    grid-column: 1/ 2;
+    margin-top: -100px;
+  }
+  #wallplay {
+    padding-top: 0px;
+    grid-column: 1/ 2;
+    margin-top: -150px;
+  }
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+  }
+
   .links-ul {
     grid-gap: 5px;
     grid-template-columns: 1fr;

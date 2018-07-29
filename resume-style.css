@@ -7,3 +7,9 @@ header {
   padding: 20px 0;
   margin-left: 15%;
 }
+
+.content {
+  width: 60vw;
+  margin-left: 10vw;
+  word-wrap: normal;
+}
