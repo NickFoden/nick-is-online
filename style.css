@@ -179,7 +179,9 @@ body {
 .fa {
   margin: 0px 5px;
 }
+
 .contact-links {
+  margin-top: 15px;
   display: flex;
 }
 
