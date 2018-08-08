@@ -179,10 +179,14 @@ body {
 .fa {
   margin: 0px 5px;
 }
+.contact-links {
+  display: flex;
+}
 
 .contact-links a {
   text-decoration: none;
   color: var(--black);
+  margin: auto;
 }
 
 .contact-links a:hover {
