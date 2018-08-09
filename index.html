@@ -59,7 +59,7 @@
         </div>
     </div>
 
-    <div id="about" class="second-container">
+    <div class="second-container">
         <img class="nickelodeon animated infinite pulse" src='./assets/Nick_Foden.jpg' width="150"></img>
         <h1> About Nick</h1>
         <p> &nbsp;&nbsp;&nbsp;&nbsp; Hello! Nick is a web developer working with a modified MEAN stack of Mongo, Express, React
@@ -122,108 +122,90 @@
     <a href='#top-container' id="arrow-up">
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </a>
-    <div id="projects" class="third-container">
+    <div class="third-container">
         <h1 id="projects-title"> Projects</h1>
         <ul class="projects-ul">
 
-            <li class="project-list-item" id="dieHard">
-                <h2 class="project-title">Do You Even Die Hard</h2>
-                <div class="project-div">
-                    <p class="project-description">Quiz project working with jquery and javascript.This quiz is 10 questions based on the original trilogy.
-                        The other Die Hard films are ok, but decided to focus on the 3 greatest films of all time. I'd like
-                        to go back and add some more questions for the real Die Hard maniacs and screen cap some of the scenes
-                        into gifs with the nifty
-                        <a href="https://gyazo.com/about" target="_blank" rel="noopener noreferrer">Gyazo</a> tool and then use those to supplement the questions giving you a an exact moment to jog
-                        your memory. Also want to make a Striking Distance quiz, but not sure how many fans will know that
-                        one in and out.
-                    </p>
-                    <a href="http://doyouevendiehard.netlify.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="https://raw.githubusercontent.com/NickFoden/quiz-app/master/images/WelcomeToThePartyPal.jpg" alt="John McClane welcome to the party pall looking out of broken window"
-                            class="project-image" id="project-image-id">
-                    </a>
-                </div>
-            </li>
-            <li class="project-list-item" id="cards">
-                <h2 class="project-title">Cards</h2>
-                <div class="project-div">
-                    <p class="project-description">A flashcards app to learn more javascript methods, built with Node and Express. Ended up learning PUG
-                        template engine to handle the views of this app. This project useses Passport JS for auth and how
-                        to set local session variables to mark the user as logged in. If you log in you can add new cards.
-                    </p>
-                    <a href="https://github.com/NickFoden/cards-pug" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/cards.png" class="project-image" id="project-image-id">
-                    </a>
-                </div>
-            </li>
-            <li class="project-list-item" id="paycheck-strategy">
-                <h2 class="project-title">Paycheck Strategy</h2>
-                <div class="project-div">
-                    <p class="project-description">A expense/savings date projection app. Wanted to explore airbnb date selector and doing caclulations
-                        with dates. The user can input a savings goal or amount of future expense and then designate when
-                        their next paycheck is and how much money per paycheck they want to designate for this goal and then
-                        the app will let them know the future paycheck date when they reach their goal. This was a quick
-                        app one afternoon. I want to add firebase auth to this so users can save multiple goals. Maybe add
-                        an interest calculator and some other features.</p>
-                    <a href="https://github.com/NickFoden/paycheck-strategy" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/paycheck.png" class="project-image" id="project-image-id" />
-                    </a>
-                </div>
-            </li>
-            <li class="project-list-item" id="discography">
-                <h2 class="project-title">Discography</h2>
-                <div class="project-div">
-                    <p class="project-description">API project I made, where you enter a band or an artist's name and then queries the iTunes API to display
-                        50 albums related to the query. Built in React, using Fetch to query the iTunes API, and then taking
-                        the JSON result and adding to global state with Redux. Imported MomentJs to display album release
-                        dates in a human readable format. Clicking on the album image or on the artist name or album title
-                        will take the user to the relevant page in itunes.
-                    </p>
-                    <a href="https://discography.netlify.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/discography-coolio.png" alt="Coolio albums" class="project-image" id="project-image-id" />
-                    </a>
-                </div>
-
-            </li>
-            <li class="project-list-item" id="proofer">
-                <h2 class="project-title">Proofer</h2>
-                <div class="project-div">
-                    <p class="project-description">Upload an album of photos with one drag and drop. Pick the ones you approve of. Save as an album and
-                        then invite guests to your album and arrive at a consensus for which photos everyone can agree are
-                        publishable.
-                    </p>
-                    <a href="https://github.com/NickFoden/proofing-client" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/proofer.png" class="project-image" id="project-image-id" />
-                    </a>
-                </div>
-            </li>
-
-            <li class="project-list-item" id="offkey">
+            <li class="project-list-item">
+                <a href="https://theicon.org.uk/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/theiconorg.png" class="project-image">
+                </a>
                 <h2 class="project-title">The Icon</h2>
-                <div class="project-div">
-                    <p class="project-description">Working with Offkey Ltd to build a platform that delivers current news about UK energy regulations. Browse
-                        current energy updates, check if your organization is compliant with the latest energy regulations
-                        and discuss with other members of the industry.
-                    </p>
-                    <a href="https://theicon.org.uk/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/theiconorg.png" class="project-image" id="project-image-id">
-                    </a>
-                </div>
-
+                <p class="project-description">Working with Offkey Ltd to build a platform that delivers current news about UK energy regulations. Browse
+                    current energy updates, check if your organization is compliant with the latest energy regulations and
+                    discuss with other members of the industry.
+                </p>
             </li>
-
-            <li class="project-list-item" id="wallplay">
+            <li class="project-list-item">
+                <a href="http://www.wallplay.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/wallplay.png" class="project-image">
+                </a>
                 <h2 class="project-title">WallPlay</h2>
-                <div class="project-div">
-                    <p class="project-description">Working for the team at WallPlay to build out their current site in React and also CMS site in react
-                        sharing a firebase backend, where they can update content and interact with logged in users. Approving
-                        users profile changes, matching with upcoming oppurtunities and more.
-                    </p>
-                    <a href="http://www.wallplay.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/wallplay.png" class="project-image" id="project-image-id">
-                    </a>
-                </div>
+                <p class="project-description">Working for the team at WallPlay to build out their current site in React and also their CMS site in react
+                    sharing a firebase backend, where they can update content and interact with logged in users. Approving
+                    users profile changes, matching with upcoming oppurtunities and more.
+                </p>
+            </li>
+            <li class="project-list-item">
+                <a href="https://github.com/NickFoden/cards-pug" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/cards.png" class="project-image">
+                </a>
+                <h2 class="project-title">Cards</h2>
+                <p class="project-description">A flashcards app to learn more javascript methods, built with Node and Express. Ended up learning PUG template
+                    engine to handle the views of this app. This project useses Passport JS for auth and how to set local
+                    session variables to mark the user as logged in. If you log in you can add new cards.
+                </p>
+            </li>
+            <li class="project-list-item">
+                <a href="https://discography.netlify.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/discography-coolio.png" alt="Coolio albums" class="project-image" />
+                </a>
+                <h2 class="project-title">Discography</h2>
+                <p class="project-description">API project I made, where you enter a band or an artist's name and then queries the iTunes API to display
+                    50 albums related to the query. Built in React, using Fetch to query the iTunes API, and then taking
+                    the JSON result and adding to global state with Redux. Imported MomentJs to display album release dates
+                    in a human readable format. Clicking on the album image or on the artist name or album title will take
+                    the user to the relevant page in itunes.
+                </p>
+            </li>
+            <li class="project-list-item">
+                <a href="https://github.com/NickFoden/paycheck-strategy" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/paycheck.png" class="project-image" />
+                </a>
+                <h2 class="project-title">Paycheck Strategy</h2>
+                <p class="project-description">A expense/savings date projection app. Wanted to explore airbnb date selector and doing caclulations with
+                    dates. The user can input a savings goal or amount of future expense and then designate when their next
+                    paycheck is and how much money per paycheck they want to designate for this goal and then the app will
+                    let them know the future paycheck date when they reach their goal. This was a quick app one afternoon.
+                    I want to add firebase auth to this so users can save multiple goals. Maybe add an interest calculator
+                    and some other features.</p>
+            </li>
+            <li class="project-list-item">
+                <a href="https://github.com/NickFoden/proofing-client" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/proofer.png" class="project-image" />
+                </a>
+                <h2 class="project-title">Proofer</h2>
+                <p class="project-description">Upload an album of photos with one drag and drop. Pick the ones you approve of. Save as an album and then
+                    invite guests to your album and arrive at a consensus for which photos everyone can agree are publishable.
+                </p>
+            </li>
+            <li class="project-list-item">
+                <a href="http://doyouevendiehard.netlify.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://raw.githubusercontent.com/NickFoden/quiz-app/master/images/WelcomeToThePartyPal.jpg" alt="John McClane welcome to the party pall looking out of broken window"
+                        class="project-image">
+                </a>
+                <h2 class="project-title">Do You Even Die Hard</h2>
+                <p class="project-description">Quiz project working with jquery and javascript.This quiz is 10 questions based on the original trilogy.
+                    The other Die Hard films are ok, but decided to focus on the 3 greatest films of all time. I'd like to
+                    go back and add some more questions for the real Die Hard maniacs and screen cap some of the scenes into
+                    gifs with the nifty
+                    <a href="https://gyazo.com/about" target="_blank" rel="noopener noreferrer">Gyazo</a> tool and then use those to supplement the questions giving you a an exact moment to jog your
+                    memory. Also want to make a Striking Distance quiz, but not sure how many fans will know that one in
+                    and out.
+                </p>
 
             </li>
+
         </ul>
     </div>
     <a href="#top-container" id="arrow-up">
@@ -231,33 +213,39 @@
     </a>
     <iframe name="formDestination" class="hide-iframe"></iframe>
     <div id="contact" class="fourth-container">
-        <h1> Contact Nick</h1>
-        <a href="https://twitter.com/NickFoden">
-            <img id="thank-you" src="./assets/henry-smiling.jpg" width="400" class="none">
-        </a>
-        <p id="contact-form-paragraph">(Coded this form with node mailer so you shoot me an email and say hello)</p>
+        <div class="contact-header">
+            <h1 class="contact-title"> Contact Nick</h1>
+            <a href="https://twitter.com/NickFoden">
+                <img id="thank-you" src="./assets/henry-smiling.jpg" width="400" class="none">
+            </a>
+            <p>(Coded this form with node mailer so you shoot me an email and say hello)</p>
+        </div>
+        <br />
         <!-- <form class="contact-form" method="POST" action="http://localhost:8080/send" target="formDestination"> -->
         <form class="contact-form" method="POST" action="https://proofing-server.herokuapp.com/send" target="formDestination">
-            <p>
-                <label class="form-label">Your Moniker:</label>
-                <input class="form-input" type="text" name="name">
-            </p>
-            <p>
-                <label class="form-label">Email Address</label>
-                <!-- <i class="fa fa-envelope "></i> -->
-                <input class="form-input" type="email" name="email">
-            </p>
-            <p>
-                <label class="form-label">See anything cool online lately?</label>
-                <input class="form-input" type="text" name="link" placeholder="cool link">
-            </p>
-            <p class="full">
-                <label class="form-label"> Friendly Message</label>
-                <textarea class="form-input" name="message" rows="5"></textarea>
-            </p>
-            <p class="full">
+            <div className="form-body">
+                <div>
+                    <label class="form-label">Your Moniker:</label>
+                    <input class="form-input" type="text" name="name">
+                </div>
+                <div>
+
+                    <label class="form-label">Email Address</label>
+                    <!-- <i class="fa fa-envelope "></i> -->
+                    <input class="form-input" type="email" name="email">
+
+                </div>
+                <div>
+                    <label class="form-label">See anything cool online lately?</label>
+                    <input class="form-input" type="text" name="link" placeholder="cool link">
+
+                </div>
+                <div>
+                    <label class="form-label"> Friendly Message</label>
+                    <textarea class="form-input" name="message" rows="5"></textarea>
+                </div>
                 <button id="form-submit-button" type="submit">Submit</button>
-            </p>
+            </div>
         </form>
     </div>
     <a href="#top-container" id="arrow-up">
