@@ -131,6 +131,11 @@ body {
   height: 1px;
 }
 
+.first-bio {
+  margin-bottom: 20px;
+
+}
+
 #expand-bio {
   font-size: .75em;
   border: 2px solid var(--teal);
