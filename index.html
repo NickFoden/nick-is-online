@@ -219,34 +219,34 @@
             <a href="https://twitter.com/NickFoden">
                 <img id="thank-you" src="./assets/henry-smiling.jpg" width="400" class="none">
             </a>
-            <p>(Coded this form with node mailer so you shoot me an email and say hello)</p>
+            <p class="contact-paragraph" id="contact-form-paragraph">(Coded this form with node mailer so you shoot me an email and say hello)</p>
         </div>
         <br />
         <!-- <form class="contact-form" method="POST" action="http://localhost:8080/send" target="formDestination"> -->
         <form class="contact-form" method="POST" action="https://proofing-server.herokuapp.com/send" target="formDestination">
             <div className="form-body">
                 <div>
-                    <label class="form-label">Your Moniker:</label>
+                    <label class="label form-label">Your Moniker:</label>
                     <input class="input" type="text" name="name">
                 </div>
                 <div>
 
-                    <label class="form-label">Email Address</label>
+                    <label class="label form-label">Email Address</label>
                     <!-- <i class="fa fa-envelope"></i> -->
                     <input class="input" type="email" name="email">
 
 
                 </div>
                 <div>
-                    <label class="form-label">See anything cool online lately?</label>
+                    <label class="label form-label">See anything cool online lately?</label>
                     <input class="input" type="text" name="link" placeholder="cool link">
 
                 </div>
                 <div>
-                    <label class="form-label"> Friendly Message</label>
+                    <label class="label form-label"> Friendly Message</label>
                     <textarea class="textarea" name="message" rows="5"></textarea>
                 </div>
-                <button id="form-submit-button" type="submit">Submit</button>
+                <a class="button is-rounded" id="form-submit-button" type="submit">Submit</a>
             </div>
         </form>
     </div>
